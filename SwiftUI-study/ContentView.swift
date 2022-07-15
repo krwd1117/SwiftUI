@@ -17,9 +17,11 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 HStack {
-                    MyStackView()
-                    MyStackView()
-                    MyStackView()
+                    
+                    // 4. 2번에서 생성한 생성자에 값 전달
+                    MyStackView(isActivated: $isActivated)
+                    MyStackView(isActivated: $isActivated)
+                    MyStackView(isActivated: $isActivated)
                 } //Hstack
                     .padding(isActivated ? 50 : 10)
                     .background( isActivated ? .yellow : .black )
@@ -32,7 +34,7 @@ struct ContentView: View {
                 
                 NavigationLink {
                     // 목적지
-                    MyTextView()
+                    MyTextView(isActivated: $isActivated)
                 } label: {
                     // 들어갈 텍스트
                     Text("네비게이션")

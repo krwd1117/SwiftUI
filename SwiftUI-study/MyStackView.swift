@@ -8,6 +8,17 @@
 import SwiftUI
 
 struct MyStackView: View {
+    
+    // 1. 데이터를 연동시키기 위해 바인딩을 사용한다
+    @Binding
+    var isActivated: Bool
+    
+    // 2. 생성자
+    // .constant(기본 값) -> 기본 값 설정
+    init(isActivated: Binding<Bool> = .constant(true)) {
+        _isActivated = isActivated
+    }
+    
     var body: some View {
         VStack {
             Text("1")
@@ -23,9 +34,9 @@ struct MyStackView: View {
                 .foregroundColor(.green)
                 .font(.largeTitle)
         } // VStack
-        .padding(30)
-        .background(.gray)
-        
+        .padding(self.isActivated ? 30 : 0)
+        // 3. 바인딩한 데이터 사용
+        .background(self.isActivated ? .green : .red)
     }
 }
 
