@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		287522A62886E9C300C923D6 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287522A52886E9C300C923D6 /* MyList.swift */; };
 		28D567392883CBCA00DF58E8 /* SwiftUI_LayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D567382883CBCA00DF58E8 /* SwiftUI_LayoutApp.swift */; };
 		28D5673B2883CBCA00DF58E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5673A2883CBCA00DF58E8 /* ContentView.swift */; };
 		28D5673D2883CBCC00DF58E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D5673C2883CBCC00DF58E8 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		287522A52886E9C300C923D6 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		28D567352883CBCA00DF58E8 /* SwiftUI-Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D567382883CBCA00DF58E8 /* SwiftUI_LayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LayoutApp.swift; sourceTree = "<group>"; };
 		28D5673A2883CBCA00DF58E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				28D5673C2883CBCC00DF58E8 /* Assets.xcassets */,
 				28D5673E2883CBCC00DF58E8 /* Preview Content */,
 				28D567462883CD3900DF58E8 /* MyProjectCard.swift */,
+				287522A52886E9C300C923D6 /* MyList.swift */,
 				28D567482883D3CD00DF58E8 /* MyBasicCard.swift */,
 			);
 			path = "SwiftUI-Layout";
@@ -147,6 +150,7 @@
 				28D5673B2883CBCA00DF58E8 /* ContentView.swift in Sources */,
 				28D567492883D3CD00DF58E8 /* MyBasicCard.swift in Sources */,
 				28D567392883CBCA00DF58E8 /* SwiftUI_LayoutApp.swift in Sources */,
+				287522A62886E9C300C923D6 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
